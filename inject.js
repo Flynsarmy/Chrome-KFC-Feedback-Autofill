@@ -1,4 +1,5 @@
 (function () {
+    console.log('running');
     // First page
     var inputs = document.querySelectorAll("#surveyEntryForm input, #surveyEntryForm select");
     for ( i = 0; i < inputs.length; i++ )
